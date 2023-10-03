@@ -45,11 +45,16 @@ address {
 
 .header {}
 
+
 .header-container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.header-navigatoin {
+.header-navigatoin { 
+    display: flex;
+    align-items: center;
 }
 
 .header-logo {
@@ -61,6 +66,7 @@ address {
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        padding-right: 76px;
 }
 .header-logo-blue {
     color: #2e2f42;
@@ -71,16 +77,22 @@ address {
     color: #404bbf;
 }
 
-.header-list {}
+.header-list {
+    display: flex;
+    gap: 40px;
+}
 
-.header-list-item {}
+.header-list-item {
+}
 
 .header-list-link {
+    display: block;
     color:#2E2F42;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        padding: 24px 0;
 }
 
 .header-list-link:hover,
@@ -92,9 +104,13 @@ address {
     font-style: normal;
 }
 
-.header-address-list {}
+.header-address-list {
+    display: flex;
+    gap: 40px;
+}
 
-.header-address-item {}
+.header-address-item {
+}
 
 .header-address-link {
     color: #434455;
@@ -114,6 +130,9 @@ address {
 
 .hero {
     background-color:  #2E2F42;
+}
+
+.hero-container {
 }
 
 .hero-text {
