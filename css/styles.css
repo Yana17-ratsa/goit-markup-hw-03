@@ -1,0 +1,254 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+/**========HEADER========*/
+
+.header {}
+
+.header-navigatoin {
+}
+
+.header-logo {
+    color: #4d5ae5;
+        font-family: "Raleway",
+            sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+.header-logo-blue {
+    color: #2e2f42;
+}
+
+.header-logo.hero-btn:hover,
+.header-logo:focus {
+    color: #404bbf;
+}
+
+.header-list {}
+
+.header-list-item {}
+
+.header-list-link {
+    color:#2E2F42;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+.header-list-link:hover,
+.header-list-link:focus{
+    color:#404BBF;
+}
+
+.header-address {
+    font-style: normal;
+}
+
+.header-address-list {}
+
+.header-address-item {}
+
+.header-address-link {
+    color: #434455;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+    color: #404BBF;
+}
+
+/**================*/
+
+/**========HERO========*/
+
+.hero {
+    background-color:  #2E2F42;
+}
+
+.hero-text {
+    color:  #FFF;
+        text-align: center;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+}
+
+.hero-btn {
+    cursor: pointer;
+    background-color: #4D5AE5;
+    color:  #FFF;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404BBF;
+}
+
+/**================*/
+
+/**========BENEFITS========*/
+.benefits {}
+
+.visually-hidden {
+    .visually-hidden {
+            margin: -1px;
+            border: 0;
+    
+            white-space: nowrap;
+            clip-path: inset(100%);
+            clip: rect(0 0 0 0);
+            overflow: hidden;
+        }
+}
+
+.benefits-list {}
+
+.benefits-item {}
+
+.benfits-subtitle {
+    color:  #2E2F42;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.benefits-item-text {
+    color:  #434455;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+/**================*/
+
+/**========TEAM========*/
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-title {
+    color:  #2E2F42;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+}
+
+.team-list {}
+
+.team-item {
+    background-color: #FFFFFF;
+}
+
+.team-img {}
+
+.team-subtitle {
+    color: #2E2F42;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.team-text {
+    color: #434455;
+        text-align: center;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+/**================*/
+
+
+/**========PORTFOLIO========*/
+
+.portfolio {}
+
+.portfolio-title {
+    color: #2E2F42;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-img {}
+
+.portfolio-subtitle {
+    color: #2E2F42;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.portfolio-text {
+    color: #434455;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+/**================*/
+
+/**========FOOTER========*/
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-logo {
+    color: #4d5ae5;
+        font-family: "Raleway", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+
+.footer-logo-blue {
+    color: #f4f4fd;
+}
+
+.footer-text {
+    color: #F4F4FD;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+/**================*/
