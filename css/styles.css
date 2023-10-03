@@ -43,13 +43,17 @@ address {
 
 /**========HEADER========*/
 
-.header {}
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
 
 
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 1158px;
+    margin: 0 auto;
 }
 
 .header-navigatoin { 
@@ -66,7 +70,7 @@ address {
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        padding-right: 76px;
+        margin-right: 76px;
 }
 .header-logo-blue {
     color: #2e2f42;
@@ -130,6 +134,7 @@ address {
 
 .hero {
     background-color:  #2E2F42;
+    padding: 188px 0 188px;
 }
 
 .hero-container {
@@ -142,6 +147,7 @@ address {
         font-weight: 700;
         line-height: 1.07;
         letter-spacing: 0.02em;
+        max-width: 496px;
 }
 
 .hero-btn {
@@ -152,6 +158,11 @@ address {
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
+        display: block;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        border-radius: 4px;
 }
 
 .hero-btn:hover,
@@ -162,10 +173,12 @@ address {
 /**================*/
 
 /**========BENEFITS========*/
-.benefits {}
+.benefits {
+    padding: 120px 0 120px;
+}
 
-.visually-hidden {
-    .visually-hidden {
+
+ .visually-hidden {
             margin: -1px;
             border: 0;
     
@@ -174,18 +187,27 @@ address {
             clip: rect(0 0 0 0);
             overflow: hidden;
         }
+
+
+.benefits-list {
+    display: flex;
+    gap: 24px;
 }
 
-.benefits-list {}
+.benefits-item {
+    width: calc((100% - 72px) / 4);
+}
 
-.benefits-item {}
-
+.benefits-item:not(:last-child) {
+    margin-right: 24px;
+}
 .benfits-subtitle {
     color:  #2E2F42;
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        margin-bottom: 8px;
 }
 
 .benefits-item-text {
