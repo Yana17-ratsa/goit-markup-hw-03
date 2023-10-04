@@ -195,13 +195,13 @@ address {
 }
 
 .benefits-item {
+    width: calc((100% - 72px) / 4);
 }
 
 .benefits-item:not(:last-child) {
     margin-right: 24px;
 }
 .benfits-subtitle {
-    width: calc((100% - 72px) / 4);
     color:  #2E2F42;
         font-size: 20px;
         font-weight: 500;
