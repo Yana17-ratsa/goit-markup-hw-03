@@ -192,7 +192,6 @@ address {
     overflow: hidden;
 }
 
-
 .benefits-list {
     display: flex;
     gap: 24px;
@@ -202,9 +201,6 @@ address {
     flex-basis: calc((100% - 72px) / 4);
 }
 
-.benefits-item:not(:last-child) {
-    margin-right: 24px;
-}
 .benfits-subtitle {
     color:  #2E2F42;
         font-size: 20px;
